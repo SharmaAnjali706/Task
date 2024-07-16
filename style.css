@@ -1,0 +1,420 @@
+/* Default styles */
+
+/* Body Styles */
+body {
+    font-family: 'Open Sans', 'Great Vibes';
+}
+
+/* Navigation Bar Styles */
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.navbar {
+    padding: 0 !important;
+    font-family: 'Open Sans', 'Great Vibes';
+    color: #FF5C01;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    font-family: 'Great Vibes';
+    color: #FF5C01 !important;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    color: #000;
+    font-weight: bold;
+}
+
+/* Main Area Styles */
+.Main-area {
+    background-color: white;
+    color: #000;
+    padding-top: 100px;
+    padding-bottom: 5%;
+}
+
+.promo-title {
+    text-align: left;
+    padding-left: 44px;
+    font-family: 'Open Sans';
+    font-size: 73px;
+    font-weight: bold;
+}
+
+.promo-subtitle {
+    text-align: left;
+    padding-left: 47px;
+    font-family: 'Open Sans';
+    font-size: 27px;
+}
+
+.search-bar {
+    text-align: center;
+    padding-left: 47px;
+    font-family: 'Open Sans';
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar .btn {
+    border-color: #FF5C01;
+    background-color: #FF5C01;
+    color: white;
+    margin-left: -5px;
+}
+
+.search-input {
+    width: auto;
+}
+
+/* Boxes Styles */
+.Boxes {
+    padding-top: 500px;
+    padding-bottom: 40px;
+}
+
+.header-area {
+    margin: 20px 0;
+}
+
+.main-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.sub-heading {
+    font-size: 1rem;
+    color: #000;
+    margin: 10px 0 20px;
+}
+
+.box-area {
+    background-color: white;
+    padding: 20px 0;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    padding-top: 100%; 
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.box-title {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin: 10px 0 0;
+    position: relative;
+}
+
+.text-primary {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+}
+
+/* Latest Recommendation Styles */
+.latest-recommendation {
+    .card-header {
+        position: relative;
+    }
+
+    .award-icon {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        background-color: white;
+        border-radius: 50%;
+        padding: 5px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .award-icon i {
+        font-size: 24px;
+        color: #FF5C01;
+    }
+
+    .card-body {
+        text-align: center;
+    }
+
+    .card-body img {
+        margin-bottom: 15px;
+        width: 128px;
+        height: 128px;
+    }
+
+    .card-title {
+        margin-top: 10px;
+    }
+
+    .stars {
+        margin: 10px 0;
+    }
+
+    .float-end {
+        display: block;
+        text-align: right;
+    }
+
+    .me-3 {
+        margin-right: 1rem;
+    }
+}
+
+/* Latest Business Add Styles */
+.Latest-business-add {
+    .profile-card {
+        border: none;
+        overflow: hidden;
+    }
+
+    .profile-card img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .card-body {
+        position: relative;
+        background-color: #fff;
+        padding: 20px;
+    }
+
+    .box {
+        position: absolute;
+        top: 20px;
+        left: -20px;
+        background-color: #fff;
+        padding: 20px;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .icon {
+        width: 20px;
+        margin-right: 5px;
+    }
+
+    .skills {
+        margin-top: 10px;
+        background-color: #f8f9fa;
+    }
+
+    .skills .badge {
+        margin-right: 5px;
+        width: 100%;
+        height: 100%;
+        padding-top: 100%; 
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .btn {
+        background-color: #FF5C01;
+        border-color: #FF5C01;
+    }
+
+    .text-orange {
+        color: white;
+    }
+
+    .icons {
+        top: 10px;
+        left: 10px;
+    }
+
+    .icons i {
+        margin-right: 5px;
+        font-size: 20px;
+    }
+}
+
+/* Latest Review Styles */
+.latest-reviews {
+    .h2{
+        color: #000;
+    }
+    .card-body {
+        text-align: center;
+    }
+
+    .card-body img {
+        margin-bottom: 15px;
+        width: 243px;
+        height: 243px;
+        border-radius: 50%;
+        top: -50px;
+    }
+
+    .card-title {
+        margin-top: 10px;
+    }
+
+    .stars {
+        margin: 10px 0;
+    }
+
+    .float-end {
+        display: block;
+        text-align: right;
+    }
+}
+
+/*-----last----*/
+.cylindrical-image {
+    display: inline-block;
+    position: absolute;
+    width: 120px;
+    height: 300px;
+    border-radius: 130px;
+    border: 130px solid transparent;
+    box-shadow: 0 3px 6px #00000029;
+    overflow: hidden;
+    margin: 0px;
+}
+
+.cylindrical-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+}
+.cylindrical-image.first {
+    top: 40px;
+    left: 50px;
+}
+
+.cylindrical-image.middle {
+    top: 0px !important;
+    left: 180px;
+}
+
+.cylindrical-image.third {
+    top: 40px;
+    left: 310px;
+}
+.cylindrical-box {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+/*---skillsboxes----*/
+
+.skills {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 25px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #000000;
+    border: 2px solid #020202;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.badge-primary {
+    background-color: #ffffff;
+    font-family: 'Open Sans';
+    color: #333333;
+    border-color: #333333;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Adjust styles for mobile devices */
+
+    .promo-title {
+        font-size: 40px;
+    }
+
+    .promo-subtitle {
+        font-size: 18px;
+    }
+
+    .search-bar {
+        padding-left: 10px;
+        font-size: 18px;
+    }
+
+    .search-bar .btn {
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    .header-area {
+        margin: 10px 0;
+    }
+
+    .main-heading {
+        font-size: 1.5rem;
+    }
+
+    .sub-heading {
+        font-size: 0.8rem;
+        margin: 5px 0 10px;
+    }
+
+    .box-title {
+        font-size: 14px;
+    }
+
+    .text-primary {
+        font-size: 1.5rem;
+    }
+
+    .latest-recommendation .card-body img,
+    .latest-reviews .card-body img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .latest-recommendation .card-title,
+    .latest-reviews .card-title {
+        font-size: 12px;
+    }
+
+    .latest-recommendation .stars,
+    .latest-reviews .stars {
+        margin: 5px 0;
+    }
+}
