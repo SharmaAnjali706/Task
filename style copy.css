@@ -259,10 +259,15 @@ body {
         font-size: 20px;
     }
 }
+
 /* Latest Review Styles */
 .latest-reviews {
     .main-heading {
         margin-bottom: 130px;
+        text-align: center;
+        font-size: 2em;
+        font-weight: bold;
+        color: #023341;
     }
 
     .card {
@@ -323,7 +328,6 @@ body {
         margin-left: 5px;
     }
 }
-
 
 /*-----last----*/
 .cylindrical-image {
