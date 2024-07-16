@@ -190,75 +190,72 @@ body {
         margin-right: 1rem;
     }
 }
-
 /* Latest Business Add Styles */
-.Latest-business-add {
-    .profile-card {
-        border: none;
-        overflow: hidden;
-    }
-
-    .profile-card img {
-        height: 100%;
-        object-fit: cover;
-    }
-
-    .card-body {
-        position: relative;
-        background-color: #fff;
-        padding: 20px;
-    }
-
-    .box {
-        position: absolute;
-        top: 20px;
-        left: -20px;
-        background-color: #fff;
-        padding: 20px;
-        border: 1px solid #ccc;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    }
-
-    .icon {
-        width: 20px;
-        margin-right: 5px;
-    }
-
-    .skills {
-        margin-top: 10px;
-        background-color: #f8f9fa;
-    }
-
-    .skills .badge {
-        margin-right: 5px;
-        width: 100%;
-        height: 100%;
-        padding-top: 100%; 
-        background-color: white;
-        border: 1px solid #023341;
-        border-radius: 10px;
-        position: relative;
-    }
-
-    .btn {
-        background-color: #FF5C01;
-        border-color: #FF5C01;
-    }
-
-    .text-orange {
-        color: white;
-    }
-
-    .icons {
-        top: 10px;
-        left: 10px;
-    }
-
-    .icons i {
-        margin-right: 5px;
-        font-size: 20px;
-    }
+.latest-business-add .profile-card {
+    border: none;
+    overflow: hidden;
 }
+
+.latest-business-add .profile-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.latest-business-add .card-body {
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.latest-business-add .box {
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.latest-business-add .icon {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.latest-business-add .skills {
+    margin-top: 10px;
+    background-color:#f8f9fa ;
+}
+
+.latest-business-add .skills .badge {
+    margin-right: 5px;
+    padding: 10px 15px;
+    background-color: white;
+    border: 1px solid #023341;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #023341;
+}
+
+.latest-business-add .btn {
+    background-color: #FF5C01;
+    border-color: #FF5C01;
+    color: white;
+}
+
+.latest-business-add .text-orange {
+    color: white;
+}
+
+.latest-business-add .icons {
+    top: 10px;
+    right: 10px;
+}
+
+.latest-business-add .icons i {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
 /* Latest Review Styles */
 .latest-reviews {
     .main-heading {
@@ -309,8 +306,8 @@ body {
     }
 
     hr {
-        border-top: 1px solid #023341;
-        width: 50%;
+        border-top: 4px solid #023341;
+        width: 100%;
         margin: 20px auto;
     }
 
@@ -368,32 +365,6 @@ body {
     justify-content: center;
     text-align: center;
     color: black;
-}
-/*---skillsboxes----*/
-
-.skills {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.badge {
-    display: inline-block;
-    padding: 10px 15px;
-    margin: 5px;
-    border-radius: 25px;
-    font-family: 'Open Sans';
-    font-size: 14px;
-    color: #000000;
-    border: 2px solid #020202;
-    text-align: center;
-    white-space: nowrap;
-}
-
-.badge-primary {
-    background-color: #ffffff;
-    font-family: 'Open Sans';
-    color: #023341;
-    border-color: #023341;
 }
 
 @media only screen and (max-width: 600px) {
