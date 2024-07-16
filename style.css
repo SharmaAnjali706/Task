@@ -94,7 +94,8 @@ body {
     width: auto;
 }
 
-/* Boxes Styles */
+/* Dummy section Styles */
+
 .Boxes {
     padding-top: 500px;
     padding-bottom: 40px;
@@ -114,6 +115,7 @@ body {
 .box-area {
     background-color: white;
     padding: 20px 0;
+    margin-left: 20px;
 }
 
 .box {
@@ -126,6 +128,7 @@ body {
     margin: 0 auto;
     position: relative;
 }
+
 .col{
     height: 136px;
 }
@@ -306,7 +309,7 @@ body {
     }
 
     hr {
-        border-top: 4px solid #023341;
+        border-top: 4px solid #070707;
         width: 100%;
         margin: 20px auto;
     }
