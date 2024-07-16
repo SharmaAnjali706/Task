@@ -262,6 +262,9 @@ body {
 
 /* Latest Review Styles */
 .latest-reviews{
+    .main-heading{
+        margin-bottom: 130px;
+    }
     .card-body {
         text-align: center;
     }
@@ -271,6 +274,8 @@ body {
         width: 243px;
         height: 243px;
         border-radius: 50%;
+        position: relative;
+        top: -121px;
     }
 
     .card-title {
