@@ -3,6 +3,11 @@
 /* Body Styles */
 body {
     font-family: 'Open Sans', 'Great Vibes';
+    .main-heading{
+        color: #023341;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
 }
 
 /* Navigation Bar Styles */
@@ -49,7 +54,7 @@ body {
 /* Main Area Styles */
 .Main-area {
     background-color: white;
-    color: #000;
+    color: #023341;
     padding-top: 100px;
     padding-bottom: 5%;
 }
@@ -97,17 +102,12 @@ body {
 
 .header-area {
     margin: 20px 0;
-}
-
-.main-heading {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #000;
+    margin-top: 40px;
 }
 
 .sub-heading {
     font-size: 1rem;
-    color: #000;
+    color: #023341;
     margin: 10px 0 20px;
 }
 
@@ -121,15 +121,17 @@ body {
     height: 100%;
     padding-top: 100%; 
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid #023341;
     border-radius: 10px;
     margin: 0 auto;
     position: relative;
 }
-
+.col{
+    height: 136px;
+}
 .box-title {
     font-family: 'Open Sans', sans-serif;
-    color: black;
+    color: #023341;
     margin: 10px 0 0;
     position: relative;
 }
@@ -233,7 +235,7 @@ body {
         height: 100%;
         padding-top: 100%; 
         background-color: white;
-        border: 1px solid black;
+        border: 1px solid #023341;
         border-radius: 10px;
         position: relative;
     }
@@ -259,10 +261,7 @@ body {
 }
 
 /* Latest Review Styles */
-.latest-reviews {
-    .h2{
-        color: #000;
-    }
+.latest-reviews{
     .card-body {
         text-align: center;
     }
@@ -272,7 +271,6 @@ body {
         width: 243px;
         height: 243px;
         border-radius: 50%;
-        top: -50px;
     }
 
     .card-title {
@@ -356,12 +354,11 @@ body {
 .badge-primary {
     background-color: #ffffff;
     font-family: 'Open Sans';
-    color: #333333;
-    border-color: #333333;
+    color: #023341;
+    border-color: #023341;
 }
 
 @media only screen and (max-width: 600px) {
-    /* Adjust styles for mobile devices */
 
     .promo-title {
         font-size: 40px;
