@@ -69,12 +69,12 @@ body {
     font-size: 12px;
     font-family: 'Open Sans', sans-serif
 }
-.LYB .nav-link:hover{
-    color: #104e72; 
+.navbar-nav .LYB .nav-link:hover {
+    color: #104e72;
 }
 
-.SIU .nav-link:hover {
-    color: #2d012d; 
+.navbar-nav .SIU .nav-link:hover {
+    color: #2d012d;
 }
 
 /* Main Area Styles */
@@ -83,14 +83,16 @@ body {
     color: #023341;
     padding-top: 100px;
     padding-bottom: 5%;
+    font-family: 'Open Sans';
 }
 
 .promo-title {
     text-align: left;
     padding-left: 44px;
-    font-family: 'Open Sans';
     font-size: 73px;
     font-weight: bold;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 .promo-subtitle {
