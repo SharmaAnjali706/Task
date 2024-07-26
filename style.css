@@ -316,7 +316,7 @@ body {
     }
 }
 /* Latest Business Add Styles */
-.latest-business-add{
+.latest-business-add {
     .item {
         display: flex;
         justify-content: center;
@@ -329,7 +329,7 @@ body {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 150px);
-        grid-gap: 2rem;
+        grid-gap: 1rem;
     }
     
     .item1 {
@@ -351,13 +351,14 @@ body {
         grid-row: 1 / 3;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: normal;
+        /*align-items: center;
+        justify-content: normal;*/
     }
     
     .item2 i {
         margin-bottom: 1px;
     }
+    
     .text a {
         color: inherit; 
         text-decoration: none; 
@@ -365,41 +366,32 @@ body {
         align-items: center; 
     }
     
-    .text i {
-        margin-right: 5px; 
-    }
-    
     
     .item3 {
         background-color: white;
         grid-column: 1 / 3;
         grid-row: 2 / 4;
-        padding: 1rem;
+        padding: 0.5rem;
         border-radius: 5px;
         display: flex;
-        justify-content: start;
+        justify-content: space-around;
         align-items: end;
     }
     
-    .skills {
-        width: 224px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 0.5rem; 
+    .skills{
+        gap: 0.04rem;
     }
-    
     .badge {
         background-color: white;
         color: black;
         border: 1px solid black;
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 0.5rem;
         border-radius: 15px; 
         font-size: 0.875rem; 
         text-align: center;
     }
     
-    .item4 {
+    /*.item4 {
         background-color: white;
         grid-column: 2 / 4;
         grid-row: 2 / 4;
@@ -408,25 +400,17 @@ body {
         justify-content: center;
         border: 1px solid black;
     }
-    
-    .item4 .title {
-        font-size: 1.25rem;
-        font-weight: bold;
-        margin-bottom: 0.5rem;
-    }
-    
-    .item4 text {
-        margin-bottom: 0.5rem;
-    }
-    
-    .item4 .text {
+    .item4 {
+        background-color: white;
+        grid-column: 2 / 4;
+        grid-row: 2 / 4;
         display: flex;
-        align-items: center;
-        margin-bottom: 0.5rem;
-    }
-    
-    .item4 .text i {
-        margin-right: 1px;
+        flex-direction: column;
+        justify-content: flex-end; /* Align items to the bottom */
+        align-items: flex-end; /* Align items to the right 
+        padding: 10px;
+        border: 1px solid black;
+        position: relative; /* Allows absolute positioning 
     }
     
     .item4 .btn {
@@ -435,10 +419,87 @@ body {
         text-align: center;
         border-radius: 5px;
         text-decoration: none;
-        align-self: flex-end;
+        color: white;
+        position: absolute; /* Position button at the bottom right */
+        bottom: 10px; /* Adjust as needed */
+        right: 10px; /* Adjust as need
     }
+    
+    .item4 .title {
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+    }
+    
+    .item4 .text {
+       /* display: flex;
+        align-items: center;
+        margin-bottom: 0.5rem;
+    }*/
+    
+    /*.item4 .btn {
+        background-color: #FF5C01;
+        padding: 0.5rem 0.5rem;
+        text-align: center;
+        border-radius: 5px;
+        text-decoration: none;
+        align-self: flex-end;
+    }*/
+    .item4 {
+        background-color: white;
+        grid-column: 2 / 4;
+        grid-row: 2 / 4;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Align items to the left to make room for button */
+        padding: 10px;
+        border: 1px solid black;
+        position: relative; /* Allows absolute positioning */
+        overflow: hidden; /* Ensure content does not overflow */
+    }
+    
+    .item4 .btn {
+        background-color: #FF5C01;
+        padding: 0.5rem 1rem;
+        text-align: center;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        position: absolute; /* Position button at the bottom right */
+        bottom: 10px; /* Adjust as needed */
+        right: 10px; /* Adjust as needed */
+    }
+    
+    .item4 .title {
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+    }
+    
+    .item4 .text {
+        margin-bottom: 0.5rem;
+    }
+    
+    .item4 .card-text {
+        margin-bottom: 0.5rem;
+    }
+    
+    .item4 .card-text h4 {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin: 0; 
+    }
+    
+    .item4 .text a {
+        color: black;
+        font-size: 0.9rem;
+    }
+    
+    .item4 .text i {
+        color: #FF5C01;
+    }
+    
 }
-
 /* Latest Review Styles */
 .latest-reviews {
     .main-heading {
