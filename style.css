@@ -508,60 +508,127 @@ body {
     }
 }
 
-@media only screen and (max-width: 600px) {
+/* Media queries */
 
+@media (max-width: 1200px) { 
+    .promo-title {
+        font-size: 60px; 
+    }
+
+    .promo-subtitle {
+        font-size: 24px; 
+    }
+
+    .search-bar {
+        font-size: 28px; 
+    }
+
+    .cylindrical-image {
+        width: 150px;
+        height: 400px;
+    }
+
+    .cylindrical-image.first {
+        left: 40px;
+    }
+
+    .cylindrical-image.middle {
+        left: 200px;
+    }
+
+    .cylindrical-image.third {
+        left: 400px;
+    }
+
+    .box {
+        width: 90%; 
+    }
+}
+
+@media (max-width: 992px) { 
+    .promo-title {
+        font-size: 50px; 
+    }
+
+    .search-bar {
+        font-size: 24px; 
+    }
+
+    .cylindrical-image {
+        width: 130px;
+        height: 350px;
+    }
+
+    .cylindrical-image.first, 
+    .cylindrical-image.middle, 
+    .cylindrical-image.third {
+        position: relative; 
+        left: 0; 
+        top: 0; 
+        margin-bottom: 20px; 
+    }
+
+    .box {
+        width: 95%; 
+    }
+}
+
+@media (max-width: 768px) { 
     .promo-title {
         font-size: 40px;
     }
 
     .promo-subtitle {
-        font-size: 18px;
+        font-size: 20px; 
     }
 
     .search-bar {
-        padding-left: 10px;
-        font-size: 18px;
+        font-size: 20px; 
     }
 
-    .search-bar .btn {
-        margin-left: 0;
-        font-size: 14px;
+    .search-input {
+        padding-right: 70px; 
     }
 
-    .header-area {
-        margin: 10px 0;
-    }
-
-    .main-heading {
-        font-size: 1.5rem;
-    }
-
-    .sub-heading {
-        font-size: 0.8rem;
-        margin: 5px 0 10px;
-    }
-
-    .box-title {
-        font-size: 14px;
-    }
-
-    .text-primary {
-        font-size: 1.5rem;
-    }
-
-    .latest-recommendation .card-body img,
-    .latest-reviews .card-body img {
+    .cylindrical-image {
         width: 100px;
-        height: 100px;
+        height: 300px;
     }
 
-    .latest-recommendation .card-title,
+    .cylindrical-image.first, 
+    .cylindrical-image.middle, 
+    .cylindrical-image.third {
+        position: relative; 
+        left: 0; 
+        top: 0; 
+        margin: 0 auto; 
+        margin-bottom: 20px; 
+    }
+
+    .item {
+        flex-direction: column; 
+    }
+
+    .latest-business-add .container {
+        grid-template-columns: 1fr; 
+    }
+
+    .latest-reviews .card-body img {
+        width: 80px;
+        height: 80px;
+        top: -40px;
+    }
+
     .latest-reviews .card-title {
-        font-size: 12px;
+        margin-top: 40px; 
     }
 
-    .latest-recommendation .stars,
     .latest-reviews .stars {
-        margin: 5px 0;
+        font-size: 1.2em; 
+    }
+
+    .box {
+        width: 100%; 
+        margin-bottom: 20px; 
     }
 }
