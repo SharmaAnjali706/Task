@@ -162,7 +162,7 @@ body {
 .search-bar:hover .search-input::placeholder {
     opacity: 0;
 }
-/*
+
 .cylindrical-image {
     display: inline-block;
     position: absolute;
@@ -206,55 +206,6 @@ body {
     text-align: center;
     color: black;
 }
-*/
-.cylindrical-image {
-    display: inline-block;
-    position: relative;
-    width: 20vw; /* Use viewport width for responsiveness */
-    max-width: 170px;
-    height: 40vh; /* Use viewport height */
-    max-height: 450px;
-    border-radius: 50%; /* Ensure a round shape */
-    border: 10px solid transparent; /* Adjust border size */
-    box-shadow: 0 3px 6px #00000029;
-    overflow: hidden;
-    margin: 0 10px; /* Add some margin */
-}
-
-.cylindrical-image img {
-    width: 100%;
-    height: 100%;
-    border-radius: inherit;
-    object-fit: cover; /* Maintain aspect ratio */
-}
-
-.cylindrical-box {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: black;
-}
-
-@media (max-width: 768px) {
-    .cylindrical-image {
-        width: 30vw;
-        height: 30vh;
-    }
-}
-
-@media (max-width: 480px) {
-    .cylindrical-image {
-        width: 40vw;
-        height: 25vh;
-    }
-}
-
 
 /* Dummy section Styles */
 
